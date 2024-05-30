@@ -58,10 +58,15 @@ namespace WindowsFormsApp2
 
         private void Continue_Click(object sender, EventArgs e)
         {
-
+            progressBar1.Style = ProgressBarStyle.Marquee;
         }
 
         private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void progressBar1_Click_1(object sender, EventArgs e)
         {
 
         }
